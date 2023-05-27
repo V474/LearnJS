@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+}
+
+p {
+    display: inline-block;
+}
+
+p:nth-child(1) {
+    width: 50%;
+}
+
+p:nth-child(2) {
+    width: 50%;
+}
