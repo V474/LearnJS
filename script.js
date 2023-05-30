@@ -19,3 +19,46 @@ function myLocalScope() {
   }
   
   caseInSwitch(1);
+
+  //
+  //new step in js
+
+  let count = 0;
+
+function cc(card) {
+  // Змініть код лише під цим рядком
+
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 7:
+    case 8:
+    case 9:
+      break;
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count--
+      break;
+  }
+
+  let decision;
+
+  if (count <= 0) {
+    decision = 'Hold';
+  } else {
+    decision = 'Bet';
+  }
+
+  return (count + ' ' + decision);
+  // Змініть код лише над цим рядком
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
