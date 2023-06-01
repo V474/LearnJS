@@ -62,3 +62,39 @@ function cc(card) {
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+let admin;
+let name;
+alert(admin);
+
+let ourPlanetName = 'Земля';
+let currentUserName = 'Джон';
+
+
+//-------------------
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+myMusic.push(
+  {
+    'artist': 'Billy Joel',
+    'title': 'Piano Man',
+    'release_year': 1973,
+    'formats': [
+      'cd',
+      '8t',
+      'LP'
+    ]
+  }
+)
