@@ -143,3 +143,4 @@ function lookUpProfile(name, prop) {
 }
 
 lookUpProfile("Akira", "likes");
+lookUpProfile("Akira", "likes");
